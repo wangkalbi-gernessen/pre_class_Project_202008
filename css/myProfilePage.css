@@ -77,10 +77,6 @@ h1{
   justify-content: space-around;
 }
 
-/* #other_pictures h1{
-  text-align: left;
-} */
-
 #other_pictures p, #community p{
   width: 20%;
 }
@@ -96,7 +92,6 @@ h1{
   flex-direction: column;
   justify-content: flex-start;
   margin-top:40px;
-  border: 1px outset gray;
 }
 
 #about_me > *{
