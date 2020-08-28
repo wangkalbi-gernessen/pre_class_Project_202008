@@ -63,11 +63,10 @@ html, body{
   background-color: ;
 }
 
-
 #message_list{
   width: 30%;
   border: 1px solid black;
-  border-top: 30px;
+  margin: 30px 0;
 }
 
 #message_column ul{
@@ -86,11 +85,7 @@ html, body{
   width: 20%;
 }
 
-.face_button button{
-  border-radius: 50%;
-}
-
-.face_button button img{
+.face_button a img{
   border-radius: 50%;
 }
 
@@ -137,9 +132,28 @@ html, body{
 #message_detail{
   width: 80%;
   height: 80%;
+  margin-top: 50px;
+  padding-left: 10px;
   border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+.message_each:nth-child(odd){
+  background-color: aqua;
+  border-radius: 15px;
+  width:50%;
+  margin-top:20px;
+}
+
+.message_each:nth-child(even){
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid gray;
+  width:50%;
+  margin-top:20px;
+}
 
 
 
