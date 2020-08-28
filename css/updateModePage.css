@@ -46,16 +46,17 @@ html, body{
 
 #main{
   background-color: rgb(240, 229, 229);
-  height:1000px;
+  height:100%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 #article{
   width: 70%;
-  height: 700px;
+  height: 800px;
   background-color: #fff;
   margin: 150px auto;
+  border: 2px gray solid;
 }
 
 h1{
@@ -73,10 +74,27 @@ h3{
 }
 
 #service_content{
-  border: 1px solid black;
   width: 50%;
-  margin: 0 auto;
+  margin: 50px auto;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#form_area{
+  text-align: center;
+}
+
+#check_ok{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#edit_button input{
+  background-color: #fff;
+  color:black;
 }
 
 #footer{

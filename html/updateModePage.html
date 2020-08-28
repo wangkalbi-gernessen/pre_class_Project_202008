@@ -28,6 +28,17 @@
             <li>You can get 100 "Like" every month.</li>
           </ol>
         </div>
+        <div id="form_area">
+          <form action="" method="post">
+            <div id="check_ok">
+              <input type="checkbox" name="ok" id="ok">
+              <label for="ok">I checked above services.</label>
+            </div>
+            <div id="edit_button">
+              <input type="submit" value="Update" name="update" id="update" disabled>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <div id="footer">
@@ -36,5 +47,24 @@
       </p>
     </div>
   </div>
+  <script src="../js/updateModePage.js"></script>
+  <!-- <script>
+    'use strict';
+
+    document.addEventListener('DOMLoadedContent', function(){
+      let ok = document.getElementById('ok');
+      let update = document.getElementById('update');
+
+      update.addEventListener('change', function(){
+        update.style.backgroundColor = "blue";
+        // if(ok.checked === true){
+        //   update.enabled === true;
+        //   update.style.backgroundColor = "blue";
+        // } else {
+
+        // }
+      }, false);
+    }, false);
+  </script> -->
 </body>
 </html>
