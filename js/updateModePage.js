@@ -9,10 +9,12 @@ document.addEventListener('DOMContentLoaded', function(){
       update.disabled = false;
       update.style.backgroundColor = "blue";
       update.style.color = "#fff";
+      update.style.cursor = "pointer";
     } else{
       update.disabled = true;
       update.style.backgroundColor = "#fff";
       update.style.color = "black";
+      update.style.cursor = "auto";
     }
   }, false);
 }, false);
