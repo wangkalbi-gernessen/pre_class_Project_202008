@@ -46,7 +46,7 @@ html, body{
 
 #main{
   background-color: white;
-  height:1500px;
+  height:100%;
   padding-top: 60px;
   padding-bottom: 60px;
   width:90%;
@@ -95,8 +95,17 @@ h1{
 
 #about_me{
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top:40px;
+  border: 1px outset gray;
+  margin-bottom: 40px;
+}
+
+#about_me > *{
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #footer{

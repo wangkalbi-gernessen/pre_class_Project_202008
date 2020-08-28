@@ -28,7 +28,7 @@ html, body{
 }
 
 #header p {
-  line-height: 1;
+  line-height: 1; 
   font-size: 20px;
 }
 
@@ -75,9 +75,10 @@ html, body{
   background-color: blue;
   color: white;
   width: 100%;
+  cursor: pointer;
 }
 
-#from_others:active, #from_myself:active{
+#from_others:hover, #from_myself:hover{
   background-color: limegreen;
   color: white;
   width: 100%;

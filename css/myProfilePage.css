@@ -46,7 +46,7 @@ html, body{
 
 #main{
   background-color: white;
-  height:1500px;
+  height:100%;
   padding-top: 60px;
   padding-bottom: 60px;
   width:90%;
@@ -93,8 +93,20 @@ h1{
 
 #about_me{
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top:40px;
+  border: 1px outset gray;
+}
+
+#about_me > *{
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#edit_button_me{
+  margin-bottom: 30px;
 }
 
 #footer{
