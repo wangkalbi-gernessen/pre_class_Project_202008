@@ -45,10 +45,56 @@ html, body{
 }
 
 #main{
-  background-color: rgb(240, 229, 229);
-  height:1000px;
+  background-color: white;
+  height:1500px;
   padding-top: 60px;
   padding-bottom: 60px;
+  width:90%;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 25px;
+}
+
+#face_area{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 250px;
+}
+
+#my_name{
+  float:left;
+  width: 80%;
+  height: 250px;
+  margin-left: 50px;
+}
+
+#other_pictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* #other_pictures h1{
+  text-align: left;
+} */
+
+#other_pictures p, #community p{
+  width: 20%;
+}
+
+#community{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#about_me{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #footer{
